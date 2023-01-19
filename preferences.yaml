@@ -1,0 +1,20 @@
+!!python/object:preferences.PrefObj
+children:
+  test: &id001 !!python/object:preferences.PrefObj
+    children:
+    - 1
+    - 2
+  window: &id002 !!python/object:preferences.PrefObj
+    children:
+      fps: 60
+      height: 700
+      show_fps: true
+      title: Snake ML
+      width: 1000
+    fps: 60
+    height: 700
+    show_fps: true
+    title: Snake ML
+    width: 1000
+test: *id001
+window: *id002

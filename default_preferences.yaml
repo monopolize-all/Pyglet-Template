@@ -1,0 +1,10 @@
+window:
+  width: 1000
+  height: 700
+  title: Snake ML
+  fps: 60
+  show_fps: true
+
+test:
+  - 1
+  - 2
